@@ -180,7 +180,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYmNiYzk5" projecturn="a.cGVyc29uYWw6dWUyYmNiYzk5IzIwMTcwMjAxNjE0NTIyMjY" f3durn="urn:adsk.wipprod:dm.lineage:P6LJSsdnTMS0UlTyof3aIg" pcbguid="9d2a9367-cb74-4049-92d1-8354efb4cba3" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="4b903c35-988d-4b50-976e-fbbd41b9f6d4" lastsyncedrevisionid="4b903c35-988d-4b50-976e-fbbd41b9f6d4" lastboardhashguid="365ee5b1-b4ea-8c86-af8f-a6831b5e4964" lastpushedtime="2025-05-02T15:31:11Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYmNiYzk5" projecturn="a.cGVyc29uYWw6dWUyYmNiYzk5IzIwMTcwMjAxNjE0NTIyMjY" f3durn="urn:adsk.wipprod:dm.lineage:P6LJSsdnTMS0UlTyof3aIg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="4b903c35-988d-4b50-976e-fbbd41b9f6d4" lastsyncedrevisionid="4b903c35-988d-4b50-976e-fbbd41b9f6d4" lastboardhashguid="365ee5b1-b4ea-8c86-af8f-a6831b5e4964" lastpushedtime="2025-05-02T15:31:11Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="77" x2="0" y2="3" width="0" layer="20"/>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
@@ -783,6 +783,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
+This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="DUMMY">
+<description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
+&lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
+
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
+&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -981,7 +1006,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08439" x="59.87" y="118.79" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="84" y="24.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C12" library="SparkFun-Capacitors" package="1206" value="" x="84" y="9" smashed="yes" rot="MR180">
+<element name="C12" library="SparkFun-Capacitors" package="1206" value="100nF" x="84" y="9" smashed="yes" rot="MR180">
 <attribute name="NAME" x="84" y="7.857" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="84" y="10.143" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
@@ -990,11 +1015,11 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08439" x="35.25" y="118.79" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67" y="24.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C16" library="SparkFun-Capacitors" package="1206" value="" x="67" y="9" smashed="yes" rot="MR180">
+<element name="C16" library="SparkFun-Capacitors" package="1206" value="100nF" x="67" y="9" smashed="yes" rot="MR180">
 <attribute name="NAME" x="67" y="7.857" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="67" y="10.143" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="C17" library="SparkFun-Capacitors" package="0603" value="" x="24.2" y="40.3" smashed="yes" rot="MR180">
+<element name="C17" library="SparkFun-Capacitors" package="0603" value="100nF" x="24.2" y="40.3" smashed="yes" rot="MR180">
 <attribute name="NAME" x="24.2" y="39.538" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="24.2" y="41.062" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
@@ -1021,11 +1046,11 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08439" x="58" y="-49" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.01" y="45.361" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C22" library="SparkFun-Capacitors" package="1206" value="" x="11" y="42" smashed="yes" rot="MR0">
+<element name="C22" library="SparkFun-Capacitors" package="1206" value="100nF" x="11" y="42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="11" y="43.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="11" y="40.857" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="C4" library="SparkFun-Capacitors" package="1206" value="" x="101" y="9" smashed="yes" rot="MR180">
+<element name="C4" library="SparkFun-Capacitors" package="1206" value="100nF" x="101" y="9" smashed="yes" rot="MR180">
 <attribute name="NAME" x="101" y="7.857" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="101" y="10.143" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
@@ -1034,7 +1059,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08439" x="27.51" y="-80.79" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11" y="13.571" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="1206" value="" x="11" y="22" smashed="yes" rot="MR0">
+<element name="C7" library="SparkFun-Capacitors" package="1206" value="100nF" x="11" y="22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="11" y="23.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="11" y="20.857" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
@@ -1164,7 +1189,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="TRANS-09984" x="-14.58" y="101.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="50.19" y="16" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value=" " x="5" y="53" smashed="yes" rot="MR0">
+<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="5" y="53" smashed="yes" rot="MR0">
 <attribute name="NAME" x="5" y="54.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="-28.02" y="-51.14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="5" y="51.857" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
@@ -1219,12 +1244,12 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value=" " x="68.1" y="-42.76" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="30" y="68.238" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value=" " x="5" y="51" smashed="yes" rot="MR0">
+<element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="5" y="51" smashed="yes" rot="MR0">
 <attribute name="NAME" x="5" y="52.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="-33.1" y="-53.14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="5" y="49.857" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="0603" value=" " x="5" y="49" smashed="yes" rot="MR0">
+<element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="5" y="49" smashed="yes" rot="MR0">
 <attribute name="NAME" x="5" y="50.143" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="-38.18" y="-55.14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="5" y="47.857" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
@@ -1282,13 +1307,14 @@ design rules under a new name.</description>
 <element name="U$5" library="Hatch Prototype" package="DC-DC-MODULE-LASKAKIT" value="DC-DC-LASKAKIT" x="2.52" y="21.81" smashed="yes"/>
 <element name="U$6" library="Hatch Prototype" package="CDRH127" value="CDRH127" x="84" y="32" smashed="yes"/>
 <element name="U$7" library="Hatch Prototype" package="SS54" value="SS54" x="92" y="32" smashed="yes" rot="R90"/>
-<element name="U$8" library="Hatch Prototype" package="CDRH127" value="CDRH127" x="67" y="32" smashed="yes"/>
+<element name="U$8" library="Hatch Prototype" package="CDRH127" value="CDRH127 - 33uH" x="67" y="32" smashed="yes"/>
 <element name="U$9" library="Hatch Prototype" package="SS54" value="SS54" x="75" y="32" smashed="yes" rot="R90"/>
 <element name="U1" library="SparkFun-IC-Power" package="SOT223" value="" x="15" y="36.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="19.5085" y="35.4745" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="PROD_ID" value="VREG-08170" x="-68.82" y="113.77" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="14.8095" y="35.2205" size="0.4064" layer="28" rot="MR90"/>
 </element>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LEDGERNO_FOOTPRINT" x="-23.1" y="-4.1" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VCC">
